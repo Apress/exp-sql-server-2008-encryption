@@ -1,0 +1,2 @@
+Rem This statement creates a certificate at the command line
+makecert -sv "c:\Cert2_Sales.pvk" -pe -a sha1 -b "01/01/2009" -e "12/31/2020" -len 2048 -r -n "CN=SQL Server 2008 Test Certificate" c:\Cert2_Sales.cer

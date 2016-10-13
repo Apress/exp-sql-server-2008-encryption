@@ -1,0 +1,6 @@
+-- Listing 2-12
+-- Opening a DMK
+
+OPEN MASTER KEY 
+DECRYPTION BY PASSWORD = N'$4yAxU%t7';
+

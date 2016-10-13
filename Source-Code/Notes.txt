@@ -1,0 +1,5 @@
+Note that the .sql scripts in this file are designed to be run in SQLCMD or SQL Server Management Studio. Most samples use the AdventureWorksLT2008 sample database, except where noted.
+
+The .NET SQL CLR projects provided in this file are .NET SQL Server database projects, and require Visual Studio 2008 Professional to compile and deploy. Note that SQL CLR projects are not supported by Visual Studio standard or express versions.
+
+Additional files are included, such as XML files and text files to allow readers to execute the samples in the book.

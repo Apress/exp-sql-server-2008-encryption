@@ -1,0 +1,11 @@
+-- Listing 6-4
+-- Create a Database Encryption Key
+
+USE AdventureWorksLT2008;
+GO
+
+CREATE DATABASE ENCRYPTION KEY
+WITH ALGORITHM = AES_256
+ENCRYPTION BY SERVER CERTIFICATE TDE_Certificate;
+GO
+

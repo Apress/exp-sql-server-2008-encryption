@@ -1,0 +1,16 @@
+-- Listing 4-38
+-- XML file snippet
+
+<capitals>
+  <state name = "Alabama" 
+         Abbreviation = "AL" 
+         capital = "Montgomery" 
+         flag = "AL.gif" 
+         date = "December 14, 1819" 
+         fact = "Rosa Parks refused to give up her seat ..."
+         address = "600 Dexter Ave" 
+         zip = "36130" 
+         long = "-86.301963" 
+         lat = "32.377189" />
+  . . .
+</capitals>

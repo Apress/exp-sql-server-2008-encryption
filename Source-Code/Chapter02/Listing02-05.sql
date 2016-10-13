@@ -1,0 +1,5 @@
+-- Listing 2-5
+-- Create DMK
+
+CREATE MASTER KEY ENCRYPTION BY PASSWORD = N'a0*Ui)4x-f';
+

@@ -1,0 +1,2 @@
+Rem This statement creates a strong name key file at the command line
+sn -k c:\AsymKey1_Sales.snk

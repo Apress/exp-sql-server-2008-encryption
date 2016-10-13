@@ -1,0 +1,12 @@
+-- Listing 7-9
+-- CHECKSUM Function 16-Character Cycle
+
+SELECT 
+  'LE' AS String,
+  CHECKSUM('LE') AS CheckSumHash
+
+UNION ALL
+
+SELECT
+  'AAAAAAAAAAAAAAAALE',
+  CHECKSUM('AAAAAAAAAAAAAAAALE');

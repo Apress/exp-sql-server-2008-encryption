@@ -1,0 +1,6 @@
+-- Listing 2-8
+-- Regenerate a DMK
+
+ALTER MASTER KEY REGENERATE WITH ENCRYPTION BY PASSWORD = N'$4yAxU%t7';
+
+

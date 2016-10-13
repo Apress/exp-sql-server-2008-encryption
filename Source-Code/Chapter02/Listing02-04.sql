@@ -1,0 +1,5 @@
+-- Listing 2-4
+-- Regenerate SMK
+
+ALTER SERVICE MASTER KEY REGENERATE;
+

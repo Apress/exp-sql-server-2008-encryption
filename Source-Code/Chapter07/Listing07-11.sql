@@ -1,0 +1,24 @@
+-- Listing 7-11
+-- BINARY_CHECKSUM Collisions
+
+SELECT 
+  'LE' AS String,
+  BINARY_CHECKSUM('LE') AS CheckSumHash
+
+UNION ALL
+
+SELECT
+  'MU',
+  BINARY_CHECKSUM('MU')
+
+UNION ALL
+
+SELECT
+  'Ne',
+  BINARY_CHECKSUM('Ne')
+  
+UNION ALL
+
+SELECT
+  'Ou',
+  BINARY_CHECKSUM('Ou');
